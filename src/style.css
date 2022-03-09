@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.body {
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+}
+.card {
+  margin-right: 10px;
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+.suit-top-container {
+}
+.suit-top {
+  position: absolute;
+  font-size: 35px;
+  left: 5px;
+  top: 5px;
+}
+
+.number {
+  font: 50px/110px Georgia, Times New Roman, serif;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.suit-bottom {
+  transform: rotate(180deg);
+  position: absolute;
+  font-size: 35px;
+  right: 5px;
+  bottom: 5px;
+}
